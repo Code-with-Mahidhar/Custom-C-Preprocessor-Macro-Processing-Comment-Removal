@@ -53,25 +53,31 @@ Input C File → Comment Removal → Macro Processing → Final Output File
 - 📌 Handles real C code structure
 
 ## 📂 Project Structure
+
+```bash
 Custom-C-Preprocessor/
 │
-├── preprocessor.c        # Main program
-├── abc.c                 # Sample input file
-├── output.c              # Generated output
-├── images/               # Screenshots (input/output)
+├── preprocessor.c      # Main program
+├── abc.c               # Sample input file
+├── output.c            # Generated output
+├── images/             # Screenshots
 │   ├── input.png
-│   ├── output.png
+│   └── output.png
 └── README.md
+```
 
-▶️ How to Run
+## ▶️ How to Run
+```bash
 gcc preprocessor.c -o pre
 ./pre abc.c
+```
 
 📸 Screenshots
 📝 Input File
 📤 Output File
 
-📈 Example Output
+## 📈 Example Output
+```c
 #include<stdio.h>
 
 int main() {
@@ -79,6 +85,7 @@ int main() {
 
     printf("%d %d\n", k, 65);
 }
+```
 
 ## 💥 Why This Project Matters
 - Demonstrates understanding of compiler design basics
